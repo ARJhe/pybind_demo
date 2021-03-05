@@ -1,0 +1,18 @@
+ENV: python3.7,win10 32bit,ide_pycharm
+
+1. Download: https://github.com/pybind/pybind11/tree/master
+2. pip install pybind11
+3. Vim write functions.h and functions_wrapper.cpp
+4. terminal run: python setup.py build_ext --inplace
+5. run demo.py
+
+Tree  Map
+===================================
+Cextend ┬ build/
+        ├ pybind-master/
+        ├ demo.py
+        ├ functions.cp37-win32.pyd
+        ├ functions.h
+        ├ functions_wrapper.cpp
+        └ setup.py
+
